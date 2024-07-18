@@ -1,0 +1,14 @@
+container:- 1170 px
+
+font family:-  futura LT
+
+button: h-40px w-158px
+
+h1:- 70px
+h2:- 40.78px
+h3:- 30px
+
+body P font size:- 15px
+header P font size:- 23px
+
+colore:- #ffcb0f

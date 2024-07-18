@@ -1,0 +1,1632 @@
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:1500px) {
+
+    /* CONTACT --------------- */
+    #contact .contact-form {
+        width: 40%;
+    }
+
+    #contact .contact-form form {
+        justify-content: flex-end;
+    }
+
+    #contact .contact-heading {
+        width: 60%;
+    }
+
+    .slider-project .swiper-wrapper {
+        padding: 0 10px;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:1478px) {
+
+    /* CONTACT --------------- */
+    #contact .contact-form .name,
+    #contact .contact-form .email {
+        width: 214px;
+    }
+
+    #contact .contact-form .msg {
+        width: 318px;
+    }
+
+    /* REVIEW ------------------ */
+    .review .testimonial .review1 .person1 {
+        width: 393.75px !important;
+        height: 261px;
+        padding: 0.4rem !important;
+    }
+    .review-slider .review1 {
+        padding: 0 253px;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:1378px) {
+
+    /* COUNTER ---------------- */
+    .counter .counter-section {
+        flex-wrap: nowrap;
+    }
+
+    /* REVIEW ---------------- */
+    .review1 .person1 .per-img img {
+        margin-top: 17px !important;
+    }
+
+    .review-slider .review1 {
+        padding: 0 166px;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:1330px) {
+
+    /* HEADER --------------------- */
+    header #home h1 {
+        font-size: 60px;
+    }
+
+    header #home h1 span {
+        font-size: 65px;
+    }
+
+    header #home p {
+        font-size: 20px;
+    }
+
+    /* WHY US ---------------- */
+    .why-us .why-card {
+        flex-wrap: nowrap;
+    }
+
+    .why-us .why-card .card-icon {
+        position: absolute;
+        top: 108px;
+        left: 101px;
+        width: 24%;
+    }
+
+    /* REVIEW ----------- */
+    .active-testimonial {
+        height: 330px !important;
+    }
+
+    /* CONTACT -------- */
+    #contact {
+        padding: 35px;
+    }
+
+    /* REVIEW -------------------- */
+    .review1 .person1 .per-img img {
+        margin-top: 10px !important;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:1280px) {
+
+    /* REVIEW ----------- */
+    .active-testimonial {
+        height: 280px !important;
+        padding: 0.5rem !important;
+    }
+
+    .review .testimonial .review1 .person1 {
+        height: 285px;
+    }
+
+    .review1 .person1 .per-img img {
+        margin-top: -14px !important;
+    }
+
+    /* FOOTER ---------------- */
+    .footer-icons {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:1250px) {
+
+    /* REVIEW ----------------- */
+    .review1 .person1 .per-img img {
+        margin-top: -18px !important;
+    }
+
+    /* CONTACT -------------------- */
+    #contact .contact-heading {
+        width: 50%;
+    }
+
+    #contact .contact-form {
+        width: 50%;
+    }
+
+    #contact .contact-heading h2 {
+        font-size: 30px;
+    }
+
+    #contact .contact-heading span {
+        font-size: 42px;
+    }
+
+    #contact .contact-form .msg {
+        margin-top: 10px !important;
+    }
+
+    #contact .contact-form .form-btn {
+        margin-top: 10px !important;
+    }
+
+    /* FOOTER ----------- */
+    footer {
+        margin-top: -37px;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:1200px) {
+    h5 {
+        font-size: 17px;
+    }
+
+    /* NAVBAR ------------- */
+    .bottom-header {
+        padding: 19px 38px;
+    }
+
+    .top-header {
+        padding: 27px 30px;
+    }
+
+    /* HEADER ---------------- */
+    header #home h1 {
+        font-size: 56px;
+    }
+
+    header #home h1 span {
+        font-size: 60px;
+    }
+
+    header #home p {
+        font-size: 18px;
+    }
+
+    header #home .btn-div {
+        padding-top: 34px;
+        padding-bottom: 145px;
+    }
+
+    /* ABOUT -------------- */
+    #about .about-left .b2 {
+        margin-bottom: 40px;
+    }
+
+    #about .about-left h2 {
+        font-size: 37px;
+    }
+
+    #about .about-left h4 {
+        font-size: 24px
+    }
+
+    #about .about-left p {
+        font-size: 14px;
+    }
+
+    /* WHY US --------------- */
+    .why-us .why-card .cir4 {
+        width: 75%;
+    }
+
+    .why-us .why-card .card-icon {
+        top: 99px;
+        left: 96px;
+        width: 26%;
+    }
+
+    /* REVIEW ----------------- */
+    .review .testimonial .review1 .person1 {
+        height: 285px !important;
+        width: 300px !important;
+    }
+
+    .review1 .person1 .per-img img {
+        margin-top: 21px !important;
+    }
+
+    /* FOOTER ----------------- */
+    .footer-icons img {
+        width: 15%;
+    }
+
+    .footer-icons .fa-brands {
+        left: 27px;
+        top: 11px;
+        font-size: 16px;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:1140px) {
+    .button {
+        width: 142px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* NAVBAR ---------------- */
+    .bottom-header nav ul li {
+        margin-right: 2rem !important;
+    }
+
+    /* HEADER ---------------- */
+    header #home h3 {
+        font-size: 38px;
+    }
+
+    header #home h1 {
+        font-size: 50px;
+    }
+
+    header #home h1 span {
+        font-size: 55px;
+    }
+
+    /* ABOUT -------------------- */
+    #about .about-left .b2 {
+        margin-bottom: 28px;
+    }
+
+    /* WHY US ---------------- */
+    .why-us p {
+        margin-top: 1rem !important;
+    }
+
+    .why-us .why-card .cir2 {
+        width: 90%;
+        top: 11px;
+        left: 12px;
+    }
+
+    .why-us .why-card .cir3 {
+        width: 78%;
+        top: 25px;
+        left: 25px;
+    }
+
+    .why-us .why-card .cir4 {
+        width: 71%;
+        top: 35px;
+    }
+
+    .why-us .why-card .card-icon {
+        top: 85px;
+        left: 89px;
+        width: 24%;
+    }
+
+    /* REVIEW ---------- */
+    .review .testimonial .review1 .person1 {
+        margin: 1rem !important;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:1052px) {
+
+    /* NAVBAR ------------- */
+    .top-contact .top-divs {
+        margin-right: 1.5rem !important;
+    }
+
+    /* ABOUT ------------------ */
+    #about .about-left h2 {
+        font-size: 34px;
+    }
+
+    #about .about-left h4 {
+        font-size: 22px;
+    }
+
+    #about .about-left p {
+        font-size: 13px;
+    }
+
+    /* WHY US   ------------------- */
+    .why-us h2 {
+        font-size: 33px;
+    }
+
+    .why-us p {
+        font-size: 17px;
+    }
+
+    .why-us .why-card {
+        margin-top: 1.5rem !important;
+    }
+
+    .why-us .why-card .cir4 {
+        width: 69%;
+        top: 35px;
+    }
+
+    .why-us .why-card .card-icon {
+        top: 77px;
+        left: 81px;
+    }
+
+    .why-us .why-card {
+        flex-wrap: wrap;
+    }
+
+    .why-us .why-card .cir2 {
+        top: 15px;
+        left: 14px;
+    }
+
+    .why-us .why-card .cir3 {
+        width: 79%;
+        top: 32px;
+        left: 29px;
+    }
+
+    .why-us .why-card .cir4 {
+        width: 71%;
+        top: 44px;
+        left: 41px;
+    }
+
+    .why-us .why-card .card-icon {
+        top: 113px;
+        left: 109px;
+    }
+
+    /* COUNTER ---------------- */
+    .counter h2 {
+        font-size: 31px;
+    }
+
+    .counter .counter-section {
+        flex-wrap: wrap;
+    }
+
+    /* CONTACT =------------- */
+    #contact .contact-heading span {
+        font-size: 34px;
+    }
+
+    #contact .contact-heading h2 {
+        font-size: 26px;
+    }
+
+    #contact .contact-form .name,
+    #contact .contact-form .email {
+        height: 38px;
+        width: 195px;
+    }
+
+    #contact .contact-form .msg {
+        height: 38px;
+        width: 278px;
+    }
+
+    .form-btn {
+        height: 38px;
+    }
+
+    .slider-project .swiper-wrapper {
+        padding: 0 10px;
+    }
+
+    /* PORTFOLIO ---------------- */
+    .portfolio .option {
+        margin-top: 1rem !important;
+    }
+
+    .portfolio .option ul {
+        margin-bottom: 2rem !important;
+    }
+
+    /* FOOTER --------------- */
+    .footer-icons .fa-brands {
+        left: 22px;
+        top: 8px;
+        font-size: 15px;
+    }
+
+    .fa-youtube {
+        left: 25px !important;
+    }
+
+    .fa-google-plus-g {
+        left: 28px !important;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:990px) {
+    h2 {
+        font-size: 30px !important;
+    }
+
+    .button {
+        width: 128px;
+        height: 35px;
+    }
+
+    /* NAVBAR -------------- */
+    .top-header {
+        padding: 17px 14px;
+    }
+
+    .bottom-header {
+        padding: 15px 20px;
+    }
+
+    .bottom-header nav ul li {
+        margin-right: 1.3rem !important;
+    }
+
+    /* HEADER ---------------- */
+    header #home h3 {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    header #home h1 {
+        font-size: 45px;
+    }
+
+    header #home h1 span {
+        font-size: 50px;
+    }
+
+    /* ABOUT --------------- */
+    #about .about-left h2 {
+        font-size: 31px;
+    }
+
+    #about .about-left h4 {
+        font-size: 19px;
+    }
+
+    /* SERVICE ------------------ */
+    .service-card .card h5 {
+        font-size: 17px;
+    }
+
+    /* REVIEW -------------- */
+    .review .testimonial .review1 .person1 {
+        margin: 0.5rem !important;
+    }
+
+    .review1 .person1 .per-img img {
+        margin-top: 0 !important;
+    }
+
+    .person2-image {
+        margin-top: 66px;
+    }
+
+    /* PORTFOLIO ----------------- */
+    .portfolio .option ul li {
+        margin-right: 1.7rem !important;
+    }
+
+    /* CONTACT ----------------- */
+    #contact {
+        padding: 22px;
+    }
+
+    #contact .contact-heading h2 {
+        font-size: 22px !important;
+    }
+
+    #contact .contact-heading span {
+        font-size: 34px;
+    }
+
+    /* FOOTER ---------------- */
+    footer {
+        margin-top: -26px;
+    }
+
+    footer .footer-section .row .col-3 p {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .footer-contact .call span {
+        font-size: 14px;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:990px) {
+
+    /* NAVBAR -------------- */
+    .top-contact .top-divs {
+        margin-right: 0.8rem !important;
+    }
+
+    /* CONTACT -------------------- */
+    #contact .contact-heading {
+        width: 100%;
+        float: none;
+    }
+
+    #contact .contact-form {
+        width: 100%;
+        float: none;
+    }
+
+    #contact .contact-form .name,
+    #contact .contact-form .email {
+        width: 156px;
+    }
+
+    #contact .contact-form .msg {
+        width: 257px;
+    }
+
+    #contact .contact-form form {
+        justify-content: space-between;
+    }
+
+    #contact .contact-form .msg {
+        margin-top: 0 !important;
+    }
+
+    #contact .contact-form .form-btn {
+        margin-top: 0 !important;
+    }
+
+    /* FOOTER -------------------- */
+    footer {
+        margin-top: -5px;
+    }
+}
+
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:910px) {
+
+    /* NAVBAR -------------- */
+    .top-header {
+        padding: 17px 2px;
+    }
+
+    span {
+        font-size: 13px;
+    }
+
+    .top-contact .top-divs {
+        margin-right: 0.5rem !important;
+    }
+
+    .bottom-header {
+        padding: 15px 2px;
+    }
+
+    .bottom-header nav ul li {
+        margin-right: 1rem !important;
+    }
+
+    /* HEADER ------------ */
+    header #home h3 {
+        font-size: 32px;
+        line-height: 43px;
+    }
+
+    header #home h1 {
+        font-size: 39px;
+    }
+
+    header #home h1 span {
+        font-size: 44px;
+    }
+
+    /* FOOTER ---------- */
+    .footer-icons .fa-brands {
+        left: 19px;
+        top: 7px;
+        font-size: 13px;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:884px) {
+
+    /* NAVBAR ----------- */
+    .social-icon .fa-brands {
+        font-size: 16px !important;
+        margin-right: .2rem !important;
+    }
+
+    /* FOOTER --------------- */
+    footer .footer-section .row .col-3 h4 {
+        font-size: 22px;
+    }
+}
+
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:804px) {
+
+    /* NAVBAR ------ */
+    .logo {
+        font-size: 19px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .bottom-header .tagline {
+        font-size: 13px;
+    }
+
+    /* ABOUT --------------- */
+    #about .about-right img {
+        margin-top: -47px;
+        margin-left: 40px;
+    }
+
+    #about .about-left h2 {
+        font-size: 25px !important;
+    }
+
+    #about .about-left h4 {
+        font-size: 17px;
+    }
+
+    /* CONTACT ------------- */
+    #contact {
+        padding: 15px;
+    }
+
+    #contact .contact-form .name,
+    #contact .contact-form .email {
+        margin-left: 0 !important;
+        width: 139px;
+    }
+
+    #contact .contact-form .msg {
+        width: 240px;
+    }
+
+    .form-btn {
+        width: 105px;
+        padding: 9px;
+    }
+
+    /* FOOTER -------- */
+    footer .mt-5 {
+        margin-top: 1.1rem !important;
+    }
+
+    footer .footer-section .row {
+        padding-top: 100px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    footer .footer-section .row .col-3 {
+        width: 100% !important;
+    }
+
+    footer .footer-section .row .col-3 h4 {
+        font-size: 28px;
+    }
+
+    .footer-icons img {
+        width: 6%;
+    }
+
+    .footer-icons .fa-brands {
+        left: 34px;
+        top: 12px;
+        font-size: 23px;
+    }
+
+    footer .footer-section .row ul {
+        grid-template-columns: auto auto auto auto;
+        display: grid;
+        justify-content: space-between;
+    }
+
+    .footer-icons {
+        justify-content: flex-start;
+        margin-left: -14px;
+    }
+
+    .post-detail {
+        gap: 10px;
+    }
+
+    footer .call {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    footer .call .mt-4 {
+        margin-top: 0 !important;
+    }
+
+    .footer-contact .call span {
+        font-size: 16px;
+    }
+
+    footer .footer-section .row .col-3 p {
+        font-size: 17px;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:768px) {
+    h2 {
+        font-size: 27px !important;
+    }
+
+    /* NAVBAR --------------- */
+    .top-contact .c-left {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .top-contact .c-right {
+        width: 100%;
+        justify-content: start;
+        margin-top: 15px;
+    }
+
+    .top-contact .c-right .social-icon {
+        display: none !important;
+    }
+
+    .social-icon .fa-brands {
+        font-size: 22px !important;
+        margin-right: 1.5rem !important;
+    }
+
+    .youtube-img {
+        height: 39px;
+        width: 45px;
+    }
+
+    .bottom-header nav ul {
+        display: none;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .bottom-header .tagline {
+        font-size: 17px;
+    }
+
+    .bar-icon {
+        position: relative;
+        display: block;
+        right: -27px;
+    }
+
+    .close-button {
+        display: none;
+        position: relative;
+        right: 15px;
+    }
+
+    /* .showData {
+        display: block;
+    } */
+
+    .bottom-header nav ul.showData {
+        display: block;
+        height: 100%;
+    }
+
+    .bottom-header nav ul {
+        background-color: #222533;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 138px;
+        height: auto;
+        z-index: 1;
+    }
+
+    .bottom-header nav ul li {
+        margin-top: 1rem !important;
+    }
+
+    .bottom-header nav ul li:last-child {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .search-input {
+        font-size: 12px;
+        padding: 3px;
+        width: 190px;
+        margin-left: -200px;
+        margin-top: 0px;
+    }
+
+    .fa-magnifying-glass:hover {
+        transform: scale(1.2);
+    }
+
+    .navbar-icon {
+        display: block;
+    }
+
+    .fa-brands,
+    .fa-solid {
+        font-size: 21px;
+    }
+
+    .navbar-icon {
+        justify-content: space-between;
+    }
+
+    .top-divs:last-child {
+        display: none;
+    }
+
+    .search-button {
+        display: none !important;
+    }
+
+    .search-button-navbar {
+        display: block !important;
+    }
+
+    .btn-search {
+        margin-left: -50px;
+        margin-top: -12px;
+    }
+
+    .nav-input {
+        display: none !important;
+    }
+
+    .bot-nav-input {
+        display: none;
+        position: absolute;
+        top: 83px;
+        right: 176px;
+    }
+
+    /* HEADER --------------- */
+    header #home h1 {
+        font-size: 37px;
+    }
+
+    header #home h1 span {
+        font-size: 40px;
+    }
+
+    header #home p {
+        font-size: 16px;
+    }
+
+    .button {
+        width: 124px;
+        height: 34px;
+    }
+
+    /* ABOUT --------------------- */
+    #about .about-left h4 {
+        font-size: 16px;
+    }
+
+    #about .about-right img {
+        margin-top: -86px;
+    }
+
+    /* WHY US ---------------- */
+    .why-us p {
+        font-size: 16px;
+    }
+
+    .why-us .why-card h5 {
+        font-size: 17px;
+    }
+
+    /* PORTFOLIO --------------- */
+    .portfolio .option ul li {
+        margin-right: 0.5rem !important;
+    }
+
+    /* FOOTER -------------- */
+    .post-detail .circle1 span {
+        margin-left: 3px;
+        left: 10px;
+        font-size: 13px;
+        line-height: 0;
+    }
+
+    .fa-youtube {
+        left: 34px !important;
+    }
+
+    .footer-icons .fa-brands {
+        left: 34px;
+        top: 9px;
+        font-size: 23px;
+    }
+
+    .fa-google-plus-g {
+        left: 38px !important;
+    }
+}
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:425px) {
+
+    /* NAVBAR ------------------- */
+    .top-header {
+        padding: 17px 0px;
+    }
+
+    .top-contact .c-left {
+        width: 100%;
+    }
+
+    span {
+        font-size: 14px;
+    }
+
+    .bar-icon {
+        position: absolute;
+        right: 0;
+        top: 90px;
+    }
+
+    .btn-search {
+        margin-left: -0;
+        margin-top: 0;
+        position: absolute;
+        top: 110px;
+        right: 96px;
+    }
+
+    .social-icon .fa-brands {
+        font-size: 18px !important;
+        margin-right: 0.7rem !important;
+    }
+
+    .bottom-header nav ul {
+        top: 152px;
+    }
+
+    .bot-nav-input {
+        position: absolute;
+        top: 17px;
+        right: -76px;
+        padding: 2px;
+        font-size: 14px;
+    }
+
+    .bottom-header nav ul li:last-child {
+        justify-content: space-between;
+    }
+
+    .button:hover {
+        font-size: 17px;
+    }
+
+    /* HEADER --------------- */
+    header #home h3 {
+        font-size: 27px;
+        line-height: 34px;
+    }
+
+    header #home h1 {
+        font-size: 25px;
+    }
+
+    header #home h1 span {
+        font-size: 26px;
+    }
+
+    /* DROPDOWN -------------------- */
+    .option {
+        display: none !important;
+    }
+
+    .dropdown-list {
+        display: block !important;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        padding: 5px 5px 0 0;
+    }
+
+    .dropdown li {
+        display: none;
+        background: rgb(181, 99, 0);
+    }
+
+    .dropdown li:first-child {
+        display: block;
+    }
+
+    /* ABOUT -------------- */
+    #about {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    #about .about-right {
+        width: 100%;
+    }
+
+    #about .about-right img {
+        margin-top: -11px;
+        width: 50%;
+        height: 50%;
+        margin-left: 106px;
+    }
+
+    #about .about-left {
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+    }
+
+    #about .about-left h2 {
+        font-size: 24px !important;
+    }
+
+    #about .about-left h4 {
+        font-size: 15px;
+    }
+
+    #about .about-left p {
+        font-size: 13px;
+    }
+
+    #about .about-left .b2 {
+        margin-bottom: 28px;
+        position: relative;
+        left: 0;
+        margin-top: -2px;
+    }
+
+    /* WHY US --------------- */
+    .why-us .why-card {
+        justify-content: unset !important;
+    }
+
+    .why-us .why-card .card {
+        width: 41% !important;
+    }
+
+    .why-us .why-card .cir2 {
+        width: 87%;
+        top: 11px;
+        left: 10px;
+    }
+
+    .why-us .why-card .cir3 {
+        width: 75%;
+        top: 20px;
+        left: 19px;
+    }
+
+    .why-us .why-card .cir4 {
+        width: 65%;
+        top: 27px;
+        left: 27px;
+    }
+
+    .why-us .why-card .card-icon {
+        top: 59px;
+        left: 58px;
+    }
+
+    .why-us .why-card p {
+        font-size: 13px;
+    }
+
+    .why-us .why-card h5 {
+        font-size: 16px;
+    }
+
+    /* SERVICE ------------------ */
+    .service-card .card p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        position: relative !important;
+        border-radius: 50%;
+        height: 59px !important;
+        width: 39px !important;
+        font-size: 12px;
+    }
+
+    .slider-project .swiper-wrapper {
+        padding: 0 240px;
+    }
+
+    /* .portfolio */
+    .portfolio .option ul {
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+
+    .portfolio .option ul li a {
+        font-size: 12px;
+    }
+
+    /* CONTACT ---------------- */
+    #contact {
+        padding: 30px 8px;
+    }
+
+    #contact .contact-heading h2 {
+        font-size: 20px !important;
+    }
+
+    #contact .contact-heading span {
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    #contact .contact-form form {
+        justify-content: unset;
+    }
+
+    #contact .contact-form .email {
+        margin-left: 30px !important;
+        width: 139px;
+    }
+
+    #contact .contact-form .msg {
+        margin-top: 15px !important;
+        width: 185px;
+    }
+
+    #contact .contact-form .form-btn {
+        margin-top: 15px !important;
+    }
+
+    /* REVIEW ------------------- */
+    .review .testimonial .review1 .person1 {
+        height: 285px !important;
+        width: 324px !important;
+    }
+
+    /* FOOTER ------------------ */
+    footer .footer-section .row .col-3 h4 {
+        font-size: 25px;
+    }
+
+    .footer-icons img {
+        width: 20%;
+    }
+
+    footer .footer-section .row ul {
+        grid-template-columns: auto auto;
+    }
+
+    footer .call {
+        grid-template-columns: auto;
+        gap: 15px;
+    }
+
+    .footer-contact .call span {
+        font-size: 17px;
+    }
+
+    footer .footer-section .row .col-3 p {
+        font-size: 18px;
+    }
+
+    .row .col-3 ul li {
+        font-size: 17px;
+    }
+
+    footer .footer-section .row {
+        padding-top: 50px;
+    }
+
+    .footer-icons .fa-brands {
+        left: 40px;
+        top: 14px;
+    }
+
+    .fa-facebook-f {
+        left: 33px !important;
+    }
+
+    .fa-youtube {
+        left: 40px !important;
+    }
+
+    .fa-google-plus-g {
+        left: 42px !important;
+    }
+
+    /* PORTFOLIO ---------------- */
+    .portfolio .img-section {
+        grid-template-columns: repeat(auto-fit, minmax(44%, 0fr));
+        margin-bottom: 0rem !important;
+    }
+
+    .portfolio .option ul {
+        margin-bottom: 0rem !important;
+    }
+}
+
+
+/* ---- MEDIA QUERY ---------------------- */
+@media only screen and (max-width:375px) {
+    h2 {
+        font-size: 25px !important;
+    }
+
+    .slider-project .swiper-wrapper {
+        padding: 0 178px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    /* NAVBAR ----------- */
+    .top-contact .c-left {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+
+    .bottom-header .tagline {
+        font-size: 15px;
+    }
+
+    .bot-nav-input {
+        width: 125px;
+        right: -88px;
+    }
+
+    .bottom-header nav ul {
+        top: 146px;
+    }
+
+    /* HEADER ------------- */
+    header #home h3 {
+        font-size: 24px;
+    }
+
+    header #home h1 {
+        font-size: 22px;
+    }
+
+    header #home h1 span {
+        font-size: 22px;
+    }
+
+    header #home p {
+        font-size: 15px;
+    }
+
+    .portfolio p {
+        font-size: 15px;
+    }
+
+    /* ABOUT -------------- */
+    #about .about-left h2 {
+        font-size: 20px !important;
+    }
+
+    #about .about-left h4 {
+        font-size: 13px;
+    }
+
+    #about .about-left p {
+        font-size: 12px;
+    }
+
+    /* WHY US ---------- */
+    .why-us .why-card .card {
+        width: auto !important;
+    }
+
+    .why-us .why-card .cir1 {
+        width: 83%;
+    }
+
+    .why-us .why-card .cir2 {
+        width: 73%;
+        top: 15px;
+        left: 39px;
+    }
+
+    .why-us .why-card .cir3 {
+        width: 63%;
+        top: 30px;
+        left: 54px;
+    }
+
+    .why-us .why-card .cir4 {
+        width: 54%;
+        top: 43px;
+        left: 67px;
+    }
+
+    .why-us .why-card .card-icon {
+        top: 90px;
+        left: 121px;
+        width: 20%;
+    }
+
+    .card-images {
+        justify-content: center;
+    }
+
+    /* REVIEW --------- */
+    .review .testimonial p {
+        font-size: 16px;
+    }
+
+    /* CONTACT -------------- */
+    #contact .contact-heading h2 {
+        font-size: 17px !important;
+    }
+
+    #contact .contact-heading span {
+        font-size: 21px;
+    }
+
+    /* FOOTER ------------- */
+    footer .footer-section .row {
+        padding-top: 60px;
+    }
+
+    .footer-icons {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .footer-icons .fa-brands {
+        left: 32px;
+        top: 12px;
+        font-size: 21px;
+    }
+
+    .fa-facebook-f {
+        left: 28px !important;
+        top: 12px;
+    }
+
+    .fa-google-plus-g {
+        left: 36px !important;
+    }
+
+    .fa-youtube {
+        left: 34px !important;
+    }
+
+    .fa-twitter {
+        left: 32px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    h2 {
+        font-size: 23px !important;
+    }
+
+    .slider-project .swiper-wrapper {
+        padding: 0 159px;
+    }
+
+    .main-container {
+        padding: 0 16px;
+    }
+
+    /* NAVBAR ------------------- */
+    .top-header {
+        padding: 5px 0;
+    }
+
+    .top-contact .c-left {
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .bottom-header .tagline {
+        font-size: 12px;
+    }
+
+    .btn-search {
+        top: 106px;
+        /* right: 78px; */
+    }
+
+    .bar-icon {
+        top: 87px;
+    }
+
+    .bot-nav-input {
+        right: -88px;
+        width: 125px;
+    }
+
+    .bottom-header nav ul {
+        top: 140px;
+    }
+
+    /* HEADER ----------------- */
+    header #home h1 {
+        font-size: 19px;
+    }
+
+    header #home h1 span {
+        font-size: 18px;
+    }
+
+    header #home h3 {
+        font-size: 21px;
+        line-height: 23px;
+    }
+
+    header #home .text-center {
+        flex-direction: column;
+    }
+
+    .button {
+        width: 124px;
+        height: 36px;
+        margin-top: 10px;
+        margin-left: 3rem !important;
+    }
+
+    /* ABOUT --------------- */
+    #about .about-left h2 {
+        font-size: 17px !important;
+    }
+
+    #about .about-left .b2 {
+        left: -46px;
+    }
+
+    /* WHY US --------------- */
+    .why-us .why-card .cir1 {
+        width: 80%;
+    }
+
+    .why-us .why-card .cir2 {
+        width: 70%;
+        top: 13px;
+        left: 40px;
+    }
+
+    .why-us .why-card .cir3 {
+        width: 60%;
+        top: 26px;
+        left: 51px;
+    }
+
+    .why-us .why-card .cir4 {
+        width: 52%;
+        top: 36px;
+        left: 61px;
+    }
+
+    .why-us .why-card .card-icon {
+        top: 78px;
+        left: 109px;
+        width: 18%;
+    }
+
+    .card-images {
+        justify-content: center;
+    }
+
+    /* COUNTER -------------- */
+    .counter .counter-section {
+        padding: 0 !important;
+    }
+
+    /* CONTACt ------- */
+    #contact .contact-heading h2 {
+        font-size: 15px !important;
+    }
+
+    #contact .contact-heading span {
+        font-size: 18px;
+    }
+
+    #contact .contact-form .name,
+    #contact .contact-form .email {
+        margin-left: 15px !important;
+        width: 120px;
+    }
+
+    #contact .contact-form .msg {
+        margin-left: 15px !important;
+        margin-top: 15px !important;
+        width: 155px;
+    }
+
+    .form-btn {
+        width: 86px;
+        padding: 7px;
+    }
+
+    /* REVIWE ------------- */
+    .review .testimonial .review1 .person1 {
+        height: 269px !important;
+        width: 266px !important;
+    }
+
+    .review-slider .review1 {
+        padding: 0 146px;
+    }
+
+    /* FOOTER ----------- */
+    footer .footer-section .row .col-3 h4 {
+        font-size: 23px;
+    }
+
+    footer .footer-section .row .col-3 p {
+        font-size: 15px;
+    }
+
+    .footer-icons img {
+        width: 15%;
+    }
+
+    .footer-icons .fa-brands {
+        left: 27px;
+        top: 13px;
+        font-size: 18px;
+    }
+
+    .fa-google-plus-g {
+        left: 34px;
+    }
+
+    .fa-youtube {
+        left: 31px;
+    }
+
+    .fa-twitter {
+        left: 32px !important;
+    }
+
+    .fa-youtube {
+        left: 31px !important;
+    }
+
+    .row .col-3 ul li {
+        font-size: 15px;
+    }
+
+    .footer-contact .call span {
+        font-size: 15px;
+    }
+}

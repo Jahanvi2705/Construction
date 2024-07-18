@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction site</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- font awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <!-- swiper  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Animation ------------ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <!-- NAVBAR ------- -->
+    <!-- TOP NAVBAR ------- -->
+    <div class="top-header">
+        <div class="main-container">
+            <div class="top-contact">
+                <div class="c-left d-flex float-start">
+                    <div class="me-5 top-divs">
+                        <!-- <img src="photos/phone-icon.png" alt="icon" id="phone"> -->
+                        <i class="fa-solid fa-mobile-screen-button fa-lg" style="color: #000000;"></i>
+                        <span>1234-5678-9102</span>
+                    </div>
+                    <div class="me-5 top-divs">
+                        <img src="photos/email.png" alt="icon">
+                        <span>supprot@Construct.com</span>
+                    </div>
+                    <div class="top-divs">
+                        <img src="photos/watch.png" alt="icon">
+                        <span>Mon - Sat:- 9:00 to 19:00</span>
+                    </div>
+                </div>
+                <div class="c-right float-end">
+                    <div class="social-icon d-flex">
+                        <div>  <a href=""><i class="fa-brands fa-facebook-f me-2 m-2" style="color: #000000;"></i></a></div>
+                        <div> <a href=""><i class="fa-brands fa-twitter me-2 m-2" style="color: #000000;"></i></a></div>
+                        <div> <a href=""><i class="fa-brands fa-behance me-2 m-2" style="color: #000000;"></i></a></div>
+                        <div> <a href=""><i class="fa-solid fa-basketball me-2 m-2" style="color: #000000;"></i></a></div>
+                        <div> <a href=""><i class="fa-brands fa-linkedin-in me-2 m-2" style="color: #000000;"></i></a></div>
+                        <div> <a href=""><img src="photos/icons8-youtube-60.png" alt="youtube" width="35px" height="35px"
+                                class="youtube-img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BOTTOM NAVBAR ------- -->
+    <div class="bottom-header">
+        <div class="main-container">
+            <div class="float-start">
+                <div class="logo"><a href="" class="logo anchor">construction</a></div>
+                <p class="tagline">Your Company TagLine Here</p>
+            </div>
+            <div class="float-end">
+                <nav>
+                    <ul class="bottom-navbar">
+                        <li class="me-5 mt-2 text-light active-nav"><a href="#home">Home</a></li>
+                        <li class="me-5 mt-2 text-light"><a href="#about">Page</a></li>
+                        <li class="me-5 mt-2 text-light"><a href="#blog">Blog</a></li>
+                        <li class="me-5 mt-2 text-light"><a href="#project">Componants</a></li>
+                        <li class="me-5 mt-2 text-light"><a href="#portfolio">Portfolio</a></li>
+                        <li class="me-5 mt-2 text-light"><a href="#contact">Contact</a></li>
+                        <li class=" me-5 mt-2"><i class="fa-solid fa-magnifying-glass fa-lg search-button"
+                                style="color: #ffcb0f;"></i>
+                            <form>
+                                <input type="text" class="search-input nav-input" placeholder="Search Here....">
+                            </form>
+                        </li>
+                        <li class="navbar-icon"><i class="fa-brands fa-facebook-f me-2 m-2" style="color: #ffcb0f;"></i>
+                            <i class="fa-brands fa-twitter me-2 m-2" style="color: #ffcb0f;"></i>
+                            <i class="fa-brands fa-behance me-2 m-2" style="color: #ffcb0f;"></i>
+                            <i class="fa-solid fa-basketball me-2 m-2" style="color: #ffcb0f;"></i>
+                            <i class="fa-brands fa-linkedin-in me-2 m-2" style="color: #ffcb0f;"></i>
+                        </li>
+                    </ul>
+                    <div class="bar-icon mt-2"><i class="fa-solid fa-bars fa-2xl me-5" style="color: #ffcb0f;"></i>
+                    </div>
+                    <div class="close-button mt-2"><i class="fa-solid fa-xmark fa-2xl"
+                            style="color: #ffcb0f; font-size: 35px"></i></div>
+                    <div class="btn-search"><i class="fa-solid fa-magnifying-glass fa-lg search-button-navbar"
+                            style="color: #ffcb0f;"></i>
+                        <form>
+                            <input type="text" class="bot-nav-input" placeholder="Search Here....">
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- HEARDER ------- -->
+    <header>
+        <div class="main-container">
+            <div id="home" data-aos="zoom-in">
+                <h3>We are Certified Engineers</h3>
+                <h1>Construction Services<br><span style="color: #ffcb0f;">Creative & Professional</span></h1>
+                <div class="text-center">
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                        magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+                        ipsum
+                        quia dolor sit amet, consectetur, adipisci velit,</p>
+                </div>
+                <div class="text-center btn-div">
+                    <button class="button b1 me-5">know more</button>
+                    <button class="button b1 ms-5">view project</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ABOUT ------- -->
+    <div id="about">
+        <div class="main-container">
+            <div class="about-left float-start" data-aos="flip-left">
+                <h2>Welcome to Our Company</h2>
+                <h4> Aliquam lacus purus, auctor malesuada</h4>
+                <p class="mt-4">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+                    quia dolor sit amet, consectetur, adipisci veli.
+                    <br><br>
+                    Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                    voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                    laboriosam, nisi ut aliquid ex ea commodi consequatur?
+                </p>
+                <div class="btn-div">
+                    <button class="button b2">know more</button>
+                </div>
+            </div>
+            <div class="about-right float-end" data-aos="flip-right">
+                <img src="photos/about-img.png" alt="aboutback" class="about-image">
+            </div>
+        </div>
+    </div>
+    <!-- WHY US ------- -->
+    <div class="why-us" id="blog">
+        <div class="main-container">
+            <h2>WHY CHOOSE US? </h2>
+            <p class="mt-5">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni
+                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                dolor sit amet, consectetur, adipisci velit,</p>
+            <div class="why-card d-flex mt-5 mb-5" data-aos="flip-right">
+                <div class="card border-0 m-3" style="width: 18rem; background-color: transparent;">
+                    <div class="card-images d-flex"> <img class="card-img-top cir1" src="photos/circle-1.png"
+                            alt="Card image">
+                        <img class="card-img-top cir2" src="photos/circle-2.png" alt="Card image">
+                        <img class="card-img-top cir3" src="photos/circle-3.png" alt="Card image">
+                        <img class="card-img-top cir4" src="photos/circle-4.png" alt="Card image">
+                        <img src="photos/leaf.png" alt="leaf" class="card-icon">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title mt-2">We deliver quality</h5>
+                        <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                            fugit,
+                            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                            quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.</p>
+                    </div>
+                </div>
+                <div class="card border-0 m-3" style="width: 18rem; background-color: transparent;">
+                    <div class="card-images d-flex"><img class="card-img-top cir1" src="photos/circle-1.png"
+                            alt="Card image">
+                        <img class="card-img-top cir2" src="photos/circle-2.png" alt="Card image">
+                        <img class="card-img-top cir3" src="photos/circle-3.png" alt="Card image">
+                        <img class="card-img-top cir4" src="photos/circle-4.png" alt="Card image">
+                        <img src="photos/vollyball.png" alt="leaf" class="card-icon">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title mt-2">Always on time</h5>
+                        <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                            fugit,
+                            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                            quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.</p>
+                    </div>
+                </div>
+                <div class="card border-0 m-3" style="width: 18rem; background-color: transparent;">
+                    <div class="card-images d-flex"><img class="card-img-top cir1" src="photos/circle-1.png"
+                            alt="Card image">
+                        <img class="card-img-top cir2" src="photos/circle-2.png" alt="Card image">
+                        <img class="card-img-top cir3" src="photos/circle-3.png" alt="Card image">
+                        <img class="card-img-top cir4" src="photos/circle-4.png" alt="Card image">
+                        <img src="photos/pasionate.png" alt="leaf" class="card-icon">
+                    </div>
+                    <img src="" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2">we are pasionate</h5>
+                        <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                            fugit,
+                            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                            quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.</p>
+                    </div>
+                </div>
+                <div class="card border-0 m-3" style="width: 18rem; background-color: transparent;">
+                    <div class="card-images d-flex"><img class="card-img-top cir1" src="photos/circle-1.png"
+                            alt="Card image">
+                        <img class="card-img-top cir2" src="photos/circle-2.png" alt="Card image">
+                        <img class="card-img-top cir3" src="photos/circle-3.png" alt="Card image">
+                        <img class="card-img-top cir4" src="photos/circle-4.png" alt="Card image">
+                        <img src="photos/professional-service.png" alt="leaf" class="card-icon">
+                    </div>
+                    <img src="" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title mt-2">professional services</h5>
+                        <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                            fugit,
+                            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                            quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICE ------- -->
+    <div id="project" class="service pb-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
+        <div class="main-container">
+            <h2>OUR SERVICES </h2>
+            <div class="slider-project swiper">
+                <div class="service-card d-flex mt-5 swiper-wrapper">
+                    <div class="card border-0 swiper-slide">
+                        <img class="card-img-top" src="photos/service(1).png" alt="Card image">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-4"> MANAGE CONSTRUCTION</h5>
+                            <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                                aut
+                                fugit,
+                                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                porro
+                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <button class="button b2 mt-3 text-light">know more</button>
+                        </div>
+                    </div>
+                    <div class="card border-0 swiper-slide">
+                        <img class="card-img-top" src="photos/service(2).png" alt="Card image">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-4">RENOVATION</h5>
+                            <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                                aut
+                                fugit,
+                                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                porro
+                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <button class="button b2 mt-3 text-light">know more</button>
+                        </div>
+                    </div>
+                    <div class="card border-0 swiper-slide">
+                        <img class="card-img-top" src="photos/service(1).png" alt="Card image">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-4">ARCHITECTURE </h5>
+                            <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                                aut
+                                fugit,
+                                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                porro
+                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <button class="button b2 mt-3 text-light">know more</button>
+                        </div>
+                    </div>
+                    <div class="card border-0 swiper-slide">
+                        <img class="card-img-top" src="photos/service(5).avif" alt="Card image">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-4">MANAGE CONSTRUCTION</h5>
+                            <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                                aut
+                                fugit,
+                                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                porro
+                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <button class="button b2 mt-3 text-light">know more</button>
+                        </div>
+                    </div>
+                    <div class="card border-0 swiper-slide">
+                        <img class="card-img-top" src="photos/service(3).png" alt="Card image">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-4">RENOVATION </h5>
+                            <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                                aut
+                                fugit,
+                                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                porro
+                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <button class="button b2 mt-3 text-light">know more</button>
+                        </div>
+                    </div>
+                    <div class="card border-0 swiper-slide">
+                        <img class="card-img-top" src="photos/service(1).png" alt="Card image">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-4">ARCHITECTURE</h5>
+                            <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                                aut
+                                fugit,
+                                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                porro
+                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <button class="button b2 mt-3 text-light">know more</button>
+                        </div>
+                    </div>
+                    <div class="card border-0 swiper-slide">
+                        <img class="card-img-top" src="photos/servic(4).jpg" alt="Card image">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-4">MANAGE CONSTRUCTION</h5>
+                            <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                                aut
+                                fugit,
+                                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                porro
+                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <button class="button b2 mt-3 text-light">know more</button>
+                        </div>
+                    </div>
+                    <div class="card border-0 swiper-slide">
+                        <img class="card-img-top" src="photos/service(5).avif" alt="Card image">
+                        <div class="card-body p-0">
+                            <h5 class="card-title mt-4">ARCHITECTURE </h5>
+                            <p class="card-text mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                                aut
+                                fugit,
+                                sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                porro
+                                quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <button class="button b2 mt-3 text-light">know more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex swiper-slider-btn">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+
+    <!-- COUNTER ------- -->
+    <div class="counter mt-2">
+        <div class="main-container">
+            <h2 class="pt-5">what we have!</h2>
+            <div class="counter-section d-flex p-4 pb-5">
+                <div class="card m-3 animate__animated animate__jello" style="width: 18rem;" data-aos="fade-up"
+                    data-aos-duration="500">
+                    <div class="card-header">
+                        <h5>Our Clients</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="photos/public-relation.png" alt="client">
+                    </div>
+                    <div class="card-footer text-center">
+                        <h5>85854552</h5>
+                    </div>
+                </div>
+                <div class="card m-3 animate__animated animate__jello" style="width: 18rem;" data-aos="fade-up"
+                    data-aos-duration="500">
+                    <div class="card-header">
+                        <h5>telented workers</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="photos/worker-icon.png" alt="client">
+                    </div>
+                    <div class="card-footer text-center">
+                        <h5>85854552</h5>
+                    </div>
+                </div>
+                <div class="card m-3 animate__animated animate__jello" style="width: 18rem;" data-aos="fade-up"
+                    data-aos-duration="500">
+                    <div class="card-header">
+                        <h5>Awards</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="photos/trophy (1).png" alt="client">
+                    </div>
+                    <div class="card-footer text-center">
+                        <h5>85854552</h5>
+                    </div>
+                </div>
+                <div class="card m-3 animate__animated animate__jello" style="width: 18rem;" data-aos="fade-up"
+                    data-aos-duration="500">
+                    <div class="card-header">
+                        <h5>our engineers</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="photos/engineers.png" alt="client">
+                    </div>
+                    <div class="card-footer text-center">
+                        <h5>85854552</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio --------- -->
+    <div class="portfolio pb-5" id="portfolio">
+        <div class="main-container">
+            <h2 class="pt-5">Made with love</h2>
+            <p class="text-center mt-4">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                quia consequuntur magni
+                dolores eos qui ratione voluptatem dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                quisquam est, qui dolorem ipsum quia
+                dolor sit amet, consectetur, adipisci velit,</p>
+            <div class="option mt-5">
+                <ul class="d-flex mb-5 ">
+                    <li class="me-5"><a class="btn active" data-id="showall">show all</a></li>
+                    <li class="me-5"><a class="btn" data-id="building">heritage</a></li>
+                    <li class="me-5"><a class="btn" data-id="design">interior design</a></li>
+                    <li class="me-5"><a class="btn" data-id="isolation">isolation</a></li>
+                    <li class="me-5"><a class="btn" data-id="plumbing">green building</a></li>
+                </ul>
+            </div>
+            <div class="option mt-5 dropdown-list">
+                <ul class="d-flex mb-5 ">
+                    <li class="me-5 dropdown-button"><a class="btn active" data-id="showall">show all
+                            <i class="fa-solid fa-caret-down fa-xl ms-3" style="color: #ffffff;"></i></a></li>
+                    <li class="me-5  dropdown"><a class="btn" data-id="building">heritage</a></li>
+                    <li class="me-5  dropdown"><a class="btn" data-id="design">interior design</a></li>
+                    <li class="me-5  dropdown"><a class="btn" data-id="isolation">isolation</a></li>
+                    <li class="me-5  dropdown"><a class="btn" data-id="plumbing">green building</a></li>
+                </ul>
+            </div>
+            <div class="img-container-portfolio" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                <div class="img-section active-data mt-3 mb-5" id="showall" data-id="showall">
+                    <div class="first-img">
+                        <a href="photos/project-img-1.png" data-fancybox="gallery">
+                            <img src="photos/project-img-1.png" alt="img1"></a>
+                    </div>
+                    <div>
+                        <a href="photos/project-img-2.png" data-fancybox="gallery">
+                            <img src="photos/project-img-2.png" alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Atal_Pedestrian_Bridge_at_Night.jpg/1200px-Atal_Pedestrian_Bridge_at_Night.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Atal_Pedestrian_Bridge_at_Night.jpg/1200px-Atal_Pedestrian_Bridge_at_Night.jpg"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://prod-bloom-website.s3.ap-southeast-1.amazonaws.com/content/1662367838653-Banner%20tab.jpeg"
+                            data-fancybox="gallery">
+                            <img src="https://prod-bloom-website.s3.ap-southeast-1.amazonaws.com/content/1662367838653-Banner%20tab.jpeg"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://karnatakatourism.org/wp-content/uploads/2020/06/mysore-palace-1.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://karnatakatourism.org/wp-content/uploads/2020/06/mysore-palace-1.jpg"
+                                alt="img2"></a>
+                    </div>
+                </div>
+                <!-- --------------------------- -->
+                <div class="img-section mt-3 mb-5" id="building" data-id="building">
+                    <div class="first-img">
+                        <a href="https://www.gujarattourism.com/content/gujrattourism/en/accommodation/heritage-hotel/riverside-palace-gondal/_jcr_content/root/responsivegrid/tourbanner.coreimg.jpeg/1596190083278/riverside-palace-banner.jpeg"
+                            data-fancybox="gallery">
+                            <img src="https://www.gujarattourism.com/content/gujrattourism/en/accommodation/heritage-hotel/riverside-palace-gondal/_jcr_content/root/responsivegrid/tourbanner.coreimg.jpeg/1596190083278/riverside-palace-banner.jpeg"
+                                alt="img1"></a>
+                    </div>
+                    <div>
+                        <a href="https://upload.wikimedia.org/wikipedia/commons/c/c8/The_Times_of_India_Building%2C_Bombay.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/The_Times_of_India_Building%2C_Bombay.jpg"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://static2.tripoto.com/media/filter/tst/img/15546/TripDocument/1448884540_laksmi_vilass.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://static2.tripoto.com/media/filter/tst/img/15546/TripDocument/1448884540_laksmi_vilass.jpg"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://static.toiimg.com/thumb/msid-53114404,width-550,height-433/53114404.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://static.toiimg.com/thumb/msid-53114404,width-550,height-433/53114404.jpg"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.fabhotels.com/blog/wp-content/uploads/2024/01/e7237302-600x400-1.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2024/01/e7237302-600x400-1.jpg"
+                                alt="img2"></a>
+                    </div>
+                </div>
+                <!-- --------------------------- -->
+                <div class="img-section mt-3 mb-5" id="design" data-id="design">
+                    <div class="first-img">
+                        <a href="https://cdn.onekindesign.com/wp-content/uploads/2016/12/Log-Cabin-Style-Bedrooms-36-1-Kindesign.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://cdn.onekindesign.com/wp-content/uploads/2016/12/Log-Cabin-Style-Bedrooms-36-1-Kindesign.jpg"
+                                alt="img1"></a>
+                    </div>
+                    <a href="https://images.trvl-media.com/lodging/34000000/33570000/33560800/33560729/55222422.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+                        data-fancybox="gallery">
+                        <img src="https://images.trvl-media.com/lodging/34000000/33570000/33560800/33560729/55222422.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+                            alt="img2"></a>
+                    <div>
+                        <a href="https://mir-s3-cdn-cf.behance.net/projects/404/1b9fce179593119.Y3JvcCwyMTYwLDE2ODksMCw1MDI.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://mir-s3-cdn-cf.behance.net/projects/404/1b9fce179593119.Y3JvcCwyMTYwLDE2ODksMCw1MDI.jpg"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://biid.org.uk/sites/default/files/Chelsea_06_1.jpg" data-fancybox="gallery">
+                            <img src="https://biid.org.uk/sites/default/files/Chelsea_06_1.jpg" alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://elmirastoveworks.com/wp-content/uploads/2022/06/download-30.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://elmirastoveworks.com/wp-content/uploads/2022/06/download-30.jpg"
+                                alt="img2"></a>
+                    </div>
+                </div>
+                <!-- --------------------------- -->
+                <div class="img-section mt-3 mb-5" id="isolation" data-id="isolation">
+                    <div class="first-img">
+                        <a href="https://i.ytimg.com/vi/memT9c1WLYs/maxresdefault.jpg" data-fancybox="gallery">
+                            <img src="https://i.ytimg.com/vi/memT9c1WLYs/maxresdefault.jpg" alt="img1"></a>
+                    </div>
+                    <div>
+                        <a href="https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180419171833/Hawa-Mahal.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180419171833/Hawa-Mahal.jpg"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://media.istockphoto.com/id/494659822/photo/india-bada-bagh-cenotaph-in-jaisalmer-rajasthan.jpg?s=612x612&w=0&k=20&c=jKaURS6SI4HPmLKWv_m4MaFh2RgC94FoABfinqJPMGU="
+                            data-fancybox="gallery">
+                            <img src="https://media.istockphoto.com/id/494659822/photo/india-bada-bagh-cenotaph-in-jaisalmer-rajasthan.jpg?s=612x612&w=0&k=20&c=jKaURS6SI4HPmLKWv_m4MaFh2RgC94FoABfinqJPMGU="
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://t3.ftcdn.net/jpg/03/22/52/98/360_F_322529875_xskoq6Pg8vzxnDR3FNigstBWZAC2g14U.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://t3.ftcdn.net/jpg/03/22/52/98/360_F_322529875_xskoq6Pg8vzxnDR3FNigstBWZAC2g14U.jpg"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://images.pexels.com/photos/19160081/pexels-photo-19160081.jpeg?cs=srgb&dl=pexels-axp-photography-500641970-19160081.jpg&fm=jpg"
+                            data-fancybox="gallery">
+                            <img src="https://images.pexels.com/photos/19160081/pexels-photo-19160081.jpeg?cs=srgb&dl=pexels-axp-photography-500641970-19160081.jpg&fm=jpg"
+                                alt="img2"></a>
+                    </div>
+                </div>
+                <!-- --------------------------- -->
+                <div class="img-section mt-3 mb-5" id="plumbing" data-id="plumbing">
+                    <div class="first-img">
+                        <a href="https://static.euronews.com/articles/stories/04/01/13/28/808x762_cmsv2_da40f626-0eae-58e5-9458-6f82426ee695-4011328.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://static.euronews.com/articles/stories/04/01/13/28/808x762_cmsv2_da40f626-0eae-58e5-9458-6f82426ee695-4011328.jpg"
+                                alt="img1"></a>
+                    </div>
+                    <div>
+                        <a href="https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/7-ideas-for-a-mid-size-garden-space-hero.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://contentgrid.homedepot-static.com/hdus/en_US/DTCCOMNEW/Articles/7-ideas-for-a-mid-size-garden-space-hero.jpg"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://i0.wp.com/www.wedecor8.com/wp-content/uploads/2020/10/Terrace-garden.jpg?ssl=1"
+                            data-fancybox="gallery">
+                            <img src="https://i0.wp.com/www.wedecor8.com/wp-content/uploads/2020/10/Terrace-garden.jpg?ssl=1"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://i.pinimg.com/originals/e0/3f/f2/e03ff24585a78d6626cae59dc703a8de.jpg"
+                            data-fancybox="gallery">
+                            <img src="https://i.pinimg.com/originals/e0/3f/f2/e03ff24585a78d6626cae59dc703a8de.jpg"
+                                alt="img2"></a>
+                    </div>
+                    <div>
+                        <a href="https://img3.exportersindia.com/product_images/bc-full/2020/11/8077837/terrace-garden-1605785570-5629877.jpeg"
+                            data-fancybox="gallery">
+                            <img src="https://img3.exportersindia.com/product_images/bc-full/2020/11/8077837/terrace-garden-1605785570-5629877.jpeg"
+                                alt="img2"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- reviews --------- -->
+    <div class="review mt-3">
+        <div class="main-container">
+            <div class="testimonial mt-3">
+                <h2 class="mt-5">Customer Reviews</h2>
+                <p class="mt-4 text-center">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                    fugit,
+                    sed quia consequuntur
+                    magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+                    ipsum
+                    quia dolor sit amet, consectetur, adipisci velit,</p>
+                <div class="review-slider pt-5 pb-5 swiper" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="review1 d-flex pb-4 swiper-wrapper">
+                        <div class="person-testimonial person1 p-3 m-5 swiper-slide">
+                            <img src="photos/test.png" alt="coma" class="coma">
+                            <p class="ms-5">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                                sed
+                                quia
+                                consequuntur
+                                magni dolores eos qui ratione voluptatem emsequi
+                                nesciunt. Neque porro quisquam est, qui
+                                dolorem
+                                ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <!-- <i class="fa-solid fa-play fa-2xl fa-rotate-90" style="color: #e5e5e5;"></i> -->
+                            <div class="per-img text-center mt-5">
+                                <img src="photos/person1.png" alt="person" class="mt-4">
+                                <p class="mt-2">john smith</p>
+                            </div>
+                        </div>
+                        <div class="person-testimonial person1 active-testimonial p-3 m-5 mt-4  swiper-slide">
+                            <img src="photos/white-coma.png" alt="coma" class="coma">
+                            <p class="ms-5">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                                eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                                dolorem
+                                consequuntur
+                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                            </p>
+                            <!-- <i class="fa-solid fa-play fa-2xl fa-rotate-90" style="color: #ffcb0f;"></i> -->
+                            <div class="per-img text-center person2-image">
+                                <img src="photos/person2.png" alt="person" class="mt-5">
+                                <p class="mt-2">john smith</p>
+                            </div>
+                        </div>
+                        <div class="person-testimonial person1 p-3 m-5  swiper-slide">
+                            <img src="photos/test.png" alt="coma" class="coma">
+                            <p class="ms-5">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                                sed
+                                quia
+                                consequuntur
+                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                                dolorem
+                                ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <!-- <i class="fa-solid fa-play fa-2xl fa-rotate-90" style="color: #e5e5e5;"></i> -->
+                            <div class="per-img text-center mt-5">
+                                <img src="photos/person1.png" alt="person" class="mt-4">
+                                <p class="mt-2">john smith</p>
+                            </div>
+                        </div>
+                        <!-- ------------------------------ -->
+                        <div class="person-testimonial person1 p-3 m-5  swiper-slide">
+                            <img src="photos/test.png" alt="coma" class="coma">
+                            <p class="ms-5">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                fugit,
+                                sed
+                                quia
+                                consequuntur
+                                magni dolores eos qui ratione voluptatem magni dolores eos qui ratione
+                                voluptatemsequi
+                                nesciunt. Neque porro quisquam est, qui
+                                dolorem
+                                ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <!-- <i class="fa-solid fa-play fa-2xl fa-rotate-90" style="color: #e5e5e5;"></i> -->
+                            <div class="per-img text-center mt-2">
+                                <img src="photos/person1.png" alt="person" class="mt-3">
+                                <p class="mt-2">john smith</p>
+                            </div>
+                        </div>
+                        <div class="person-testimonial person1 p-3 m-5 mt-4  swiper-slide">
+                            <img src="photos/white-coma.png" alt="coma" class="coma">
+                            <p class="ms-5">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                fugit,
+                                sed
+                                quia quia
+                                consequuntur
+                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                                qui
+                                dolorem
+                                consequuntur
+                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                                qui
+                            </p>
+                            <!-- <i class="fa-solid fa-play fa-2xl fa-rotate-90" style="color: #ffcb0f;"></i> -->
+                            <div class="per-img text-center">
+                                <img src="photos/person2.png" alt="person" class="mt-4">
+                                <p class="mt-2">john smith</p>
+                            </div>
+                        </div>
+                        <div class="person-testimonial person1 p-3 m-5  swiper-slide">
+                            <img src="photos/test.png" alt="coma" class="coma">
+                            <p class="ms-5">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                fugit,
+                                sed
+                                quia
+                                consequuntur
+                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+                                qui
+                                dolorem
+                                ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                            <!-- <i class="fa-solid fa-play fa-2xl fa-rotate-90" style="color: #e5e5e5;"></i> -->
+                            <div class="per-img text-center mt-3">
+                                <img src="photos/person1.png" alt="person" class="mt-5">
+                                <p class="mt-2">john smith</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex swiper-slider-btn test">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact --------------------- -->
+    <div id="contact">
+        <div class="main-container">
+            <div class="contact-heading float-start mb-4" data-aos="fade-right" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <h2>Do you have any questions?</h2>
+                <span>feel free to contat us!</span>
+            </div>
+            <div class="contact-form float-end" data-aos="fade-left" data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <form action="" class="d-flex">
+                    <input type="text" placeholder="Name" class="name" required>
+                    <input type="text" placeholder="Email" class="email ms-4" required>
+                    <input type="text" placeholder="Message" class="msg mt-4">
+                    <button class="form-btn ms-3 mt-4">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- footer ------------- -->
+    <footer>
+        <div class="footer-section">
+            <div class="main-container">
+                <div class="row d-flex mb-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="col-3">
+                        <h4>About Company</h4>
+                        <div class="logo mt-5">construction</div>
+                        <span class="tagline">Your Company TagLine Here</span>
+                        <p class="mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                            sed
+                            quia
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                            quisquam
+                            est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                        <div class="footer-icons d-flex">
+                           <a href=""> <i class="fa-brands fa-facebook-f" style="color: #000000;" id="#home"></i></a>
+                            <img src="photos/footer-icon-bg.png" alt="footer-icon">
+                           <a href=""> <i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                            <img src="photos/footer-icon-bg.png" alt="footer-icon">
+                            <a href=""><i class="fa-brands fa-youtube" style="color: #000000;" id="#home"></i></a>
+                            <img src="photos/footer-icon-bg.png" alt="footer-icon">
+                           <a href=""><i class="fa-brands fa-google-plus-g" style="color: #000000;" id="#home"></i></a> 
+                            <img src="photos/footer-icon-bg.png" alt="footer-icon">
+                           <a href=""><i class="fa-brands fa-linkedin-in" style="color: #000000;" id="#home"></i></a> 
+                            <img src="photos/footer-icon-bg.png" alt="footer-icon">
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <h4>Explore Link</h4>
+                        <ul class="mt-5">
+                            <li>Our Services</li>
+                            <li>Meet our Team</li>
+                            <li>Forum</li>
+                            <li>Help center</li>
+                            <li>Contact Cekas</li>
+                            <li>Privacy Policy</li>
+                            <li>Cekas terms</li>
+                            <li>Site map</li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <h4>Latest post</h4>
+                        <div class="post mt-5">
+                            <div class="post-detail d-flex">
+                                <div class="circle1">
+                                    <span>20 AUG</span>
+                                </div>
+                                <p>Luptatum omittantur duo ne
+                                    mpetus indoctum</p>
+                                <div class="circle1 mt-3">
+                                    <span>20 AUG</span>
+                                </div>
+                                <p>Luptatum omittantur duo ne
+                                    mpetus indoctum</p>
+                                <div class="circle1 mt-3">
+                                    <span>20 AUG</span>
+                                </div>
+                                <p>Luptatum omittantur duo ne
+                                    mpetus indoctum</p>
+                                <div class="circle1 mt-3">
+                                    <span>20 AUG</span>
+                                </div>
+                                <p>Luptatum omittantur duo ne
+                                    mpetus indoctum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 footer-contact">
+                        <h4>Contact us</h4>
+                        <div class="call mt-5">
+                            <div>
+                                <i class="fa-solid fa-location-dot me-3 mt-1" style="color: #ffffff;"></i>
+                                <span>124, New Line, London, UK</span>
+                            </div>
+                            <div class="mt-4">
+                                <i class="fa-solid fa-envelope me-3 mt-1" style="color: #ffffff;"></i>
+                                <span>hello@PSDFreebies.com</span>
+                            </div>
+                            <div class="mt-4">
+                                <i class="fa-solid fa-mobile-screen-button me-3 mt-1" style="color: #ffffff;"></i>
+                                <span>+ 44 00 00 1234</span><br>
+                                <span id="number">+ 44 00 00 1234</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last-sec p-4">
+                <p class="text-center text-light align-content-center">Copyright @ 2016 | Designed By <span
+                        style="color: #ffcb0f;">PSDFreebies.com</span></p>
+                <!-- BACK TO TOP BUTTON -->
+                <div class="aerrow-up">
+                   <a href="#home"><i class="fa-solid fa-arrow-up" style="color: #000000;"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT ----------------------- -->
+    <!-- swiper  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <!-- main javascript  -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
